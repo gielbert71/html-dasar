@@ -65,6 +65,7 @@ body {
 
 .produk-deskripsi {
     color: var(--putih);
+    transition: all ease-in-out 0.3s;
 }
 
 .produk-harga {
@@ -79,6 +80,10 @@ body {
 
 .produk-box:hover .produk-harga {
     color: var(--warnaharga);
+}
+
+.produk-box:hover .produk-deskripsi {
+    color: var(--hitam);
 }
 
 .produk-beli {
