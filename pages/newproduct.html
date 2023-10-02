@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Array</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="path-to-adminlte/dist/css/adminlte.min.css">
+    <link rel="stylesheet" href="../assets/css/stylespro.css">
+    <style>
+        .fixed-top {
+            z-index: 1030 !important;
+        }
+
+        .sidebar {
+            height: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 250px;
+            /* Adjust as needed */
+            background-color: #343a40;
+            /* Sidebar background color */
+            color: #fff;
+            /* Text color for sidebar */
+            z-index: 1020;
+            /* Lower than the navbar */
+        }
+
+        .main-content {
+            margin-left: 250px;
+            /* Adjust to match the sidebar width */
+            padding-top: 60px;
+            /* Set to navbar height */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav class="sidebar">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Index</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login-layout.html">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="dashboard.html">Dashboard</a>
+                </li>
+                <!-- Add more sidebar links as needed -->
+            </ul>
+        </nav>
+        <div class="main-content">
+            <!-- Header -->
+            <nav class="navbar navbar-expand-lg bg-dark position-fixed" style="width: 100%; margin-top: -60px;">
+                <a class="navbar-brand" href="product.html">Product</a>
+            </nav>
+            <div class="container"></div>
+            <h1 style="text-align: center;"><a href="../index.html" class="linkurl">Product</a></h1>
+            <div class="produk-etalase">
+                <div class="produk-box">
+                    <img class="produk-gambar" src="../assets/images/products/cbr.webp" alt="Honda CBR1000RR 2017">
+                    <h2 class="produk-nama">Honda CBR1000RR 2017</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p class="produk-harga">Rp700.000.000</p><br>
+                    <center>
+                        <a href="#" type="submit" class="produk-beli">Pesan</a>
+                    </center>
+                    <br>
+                </div>
+                <div class="produk-box">
+                    <img class="produk-gambar" src="../assets/images/products/r1m.jpg" alt="Yamaha YZF-R1M 2022">
+                    <h2 class="produk-nama">Yamaha YZF-R1M 2022</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p class="produk-harga">Rp812.000.000</p><br>
+                    <center>
+                        <a href="#" type="submit" class="produk-beli">Pesan</a>
+                    </center>
+                </div>
+                <div class="produk-box">
+                    <img class="produk-gambar" src="../assets/images/products/v4r.webp" alt="Ducati V4R">
+                    <h2 class="produk-nama">Ducati V4R</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p class="produk-harga">Rp2.400.000.000</p><br>
+                    <center>
+                        <a href="#" type="submit" class="produk-beli">Pesan</a>
+                    </center>
+                </div>
+                <div class="produk-box">
+                    <img class="produk-gambar" src="../assets/images/products/zx10r.png" alt="Kawasaki Ninja ZX-10R"
+                        style="background-color: #fff;">
+                    <h2 class="produk-nama">Kawasaki Ninja ZX-10R</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p class="produk-harga">Rp492.000.000</p>
+                    <br>
+                    <center>
+                        <a href="#" type="submit" class="produk-beli">Pesan</a>
+                    </center>
+                </div>
+            </div>
+            <div class="produk-etalase">
+                <div class="produk-box">
+                    <img class="produk-gambar" src="../assets/images/products/nsx.jpg" alt="Product 1">
+                    <h2 class="produk-nama">Honda NSX Type-R</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p class="produk-harga">Rp6.193.000.000</p>
+                    <br>
+                    <center>
+                        <a href="#" type="submit" class="produk-beli">Pesan</a>
+                    </center>
+                </div>
+                <div class="produk-box">
+                    <img class="produk-gambar" src="../assets/images/products/supra.webp" alt="Product">
+                    <h2 class="produk-nama">Toyota Supra A80</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p class="produk-harga">Rp2.100.000.000</p>
+                    <br>
+                    <center>
+                        <a href="#" type="submit" class="produk-beli">Pesan</a>
+                    </center>
+                </div>
+                <div class="produk-box">
+                    <img class="produk-gambar" src="../assets/images/products/skyline.png" alt="Product">
+                    <h2 class="produk-nama">Nissan Skyline R34</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p class="produk-harga">Rp2.400.000.000</p>
+                    <br>
+                    <center>
+                        <a href="#" type="submit" class="produk-beli">Pesan</a>
+                    </center>
+                </div>
+                <div class="produk-box">
+                    <img class="produk-gambar" src="../assets/images/products/rx7.webp" alt="Product">
+                    <h2 class="produk-nama">Mazda RX7 FD3S</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p class="produk-harga">Rp2.100.000.000</p>
+                    <br>
+                    <center>
+                        <a href="#" type="submit" class="produk-beli">Pesan</a>
+                    </center>
+                </div>
+            </div>
+        </div>
+        <script src="../assets/adminlte/plugins/jquery/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        <script src="../assets/bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
